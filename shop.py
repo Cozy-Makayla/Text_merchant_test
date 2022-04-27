@@ -1,5 +1,4 @@
 from random import randint as r
-from xmlrpc.client import FastUnmarshaller
 from inventory import inv_gold
 
 shop_list_wealth = []
