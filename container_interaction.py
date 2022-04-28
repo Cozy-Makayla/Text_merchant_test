@@ -38,7 +38,6 @@ def start_trade():
         print(
             f"Would you like to sell or buy? {inv_gold:10}G : Your Wealth {shop_gold:10}G : Merchant"
         )
-        print(f"{inv_gold:10}G : Your Wealth {shop_gold:10}G : Merchant")
         print("(S)ell / (B)uy / (E)xit")
         player_choice = input()
         match player_choice.capitalize():
